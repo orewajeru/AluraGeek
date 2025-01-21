@@ -11,6 +11,18 @@
       "nombre": "Mousepad - Dragon Ball Z",
       "precio": 9.99,
       "imagen": "https://fanfun.com.pe/cdn/shop/products/35.png?v=1678045483&width=1000"
+    },
+    {
+      "id": "a625",
+      "nombre": "Figura de Toji Fushiguro",
+      "precio": "12.00",
+      "imagen": "https://m.media-amazon.com/images/I/51gLO9ozL+L.jpg"
+    },
+    {
+      "id": "e04b",
+      "nombre": "Poster - Fairy Tail",
+      "precio": "5.00",
+      "imagen": "https://m.media-amazon.com/images/I/71mPaFgVT4L.jpg"
     }
   ]
 }
