@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "nombre": "Funko Pop - Darth Vader",
+      "precio": 15.99,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_770005-MLU75435958218_042024-O.webp"
+    },
+    {
+      "id": "4",
+      "nombre": "Mousepad - Dragon Ball Z",
+      "precio": 9.99,
+      "imagen": "https://fanfun.com.pe/cdn/shop/products/35.png?v=1678045483&width=1000"
+    }
+  ]
+}

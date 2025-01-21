@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>AluraGeek</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="/img/Logo.svg" />
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="card-container">
+          <div class="card-display" data-lista></div>
+        </section>
+
+        <section>
+          
+          <form action=""class="form-container" method="POST" data-form>
+            <h2 class="form-title">Agrega un producto</h2>
+            <input
+              type="text"
+              class="form-input"
+              id="input"
+              placeholder="Ingresa un nombre"
+              data-nombre
+            />
+            <input
+              type="text"
+              class="form-input"
+              id="input"
+              placeholder="Ingresa un precio"
+              data-precio
+            />
+            <input
+              type="text"
+              class="form-input"
+              id="input"
+              placeholder="Ingresa una url"
+              data-archivo
+            />
+            <button type="submit" class="form-button">Enviar</button>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p class="footer-p">Desarrollado por Jeremias para fines prácticos</p>
+    </footer>
+
+    <script type='module' src="/js/crearCard.js"></script>
+    <script type="module" src="/js/subirArticulos.js"></script>
+    <script type="module" src="/js/eliminarArticulo.js"></script>
+  </body>
+</html>
