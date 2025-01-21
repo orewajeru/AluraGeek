@@ -16,7 +16,7 @@ function crearCard(nombre, precio, imagen, id) {
             <div class="card-info">
                 <p class="article-info">$${precio}</p>
                 <img
-                    src="/img/basura.png"
+                    src="./img/basura.png"
                     class="card-icon"
                     alt="Icono de basura"
                     data-id="${id}"
