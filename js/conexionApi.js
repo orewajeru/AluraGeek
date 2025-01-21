@@ -1,5 +1,5 @@
 async function listarProductos() {
-  const conexion = await fetch('http://localhost:3001/products');
+  const conexion = await fetch('../db.json');
 
   const respuesta = conexion.json();
 
